@@ -1,0 +1,92 @@
+#bod { 
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+#content {
+  background: #f7f7f7;
+  max-width: 620px;
+  padding: 15px;
+}
+
+#rowcontent {
+  height: 300px;
+}
+
+#outer {
+  padding-top: 220px;
+}
+
+#sunny {
+  width: 128px;
+  height: 128px;
+}
+
+#leftside {
+  width: auto;
+}
+
+#msg {
+  font-size: small;
+  padding-top: 15px;
+}
+
+.svg-icon:hover path {
+  fill: #eeaeca;
+}
+
+#submitbutton {
+  background: #cfe0f5;
+  border-radius: 5px;
+}
+
+#submitbutton:hover {
+  background: #eeaeca;
+  border-radius: 5px;
+  border: solid 1px #999;
+  color: white;
+}
+
+.input-group-text {
+  width: 50px;
+  background: #eeaeca !important;
+  text-align: center;
+}
+
+.input-group-text:hover {
+  background: #ffffff !important;
+}
+
+svg {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pine {
+  height: 200px;
+}
+
+
+
+@media screen and (max-width: 650px) {
+  #leftside {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #sunny {
+    width: 75px;
+    height: 75px;
+    float: left;
+  }
+
+  #msg {
+    float: right;
+    padding-top: 0px;
+  }
+
+  #outer{
+    padding-top: 30px;
+  }
+
+}
